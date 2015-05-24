@@ -1,0 +1,25 @@
+{
+	"name": "lainhart/YahooAPI",
+	"description": "A yahoo API for Laravel 5.",
+	"keywords": ["yahoo", "API", "laravel"],
+	"homepage": "http://github.com/lainhart/YahooAPI",
+	"license": "MIT",
+	"authors": [
+        {
+            "name": "junlae kim",
+            "email": "junlae.kim5398@gmail.com",
+            "role": "Developer"
+        }
+    ],
+	"require": {
+		"php": ">=5.4.0"
+	},
+	"require-dev": {
+		"phpspec/phpspec": "~2.1"
+	},
+	"autoload": {
+		"psr-4": {
+			"Lainhart\\YahooAPI\\": "src/"
+		}
+	}
+}
